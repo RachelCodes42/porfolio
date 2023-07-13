@@ -1,157 +1,178 @@
-html, body, h1, h2, p, ul, li, a, img {
+html,
+body,
+h1,
+h2,
+p,
+ul,
+li,
+a,
+img {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
-  
-  /* Global styles */
-  body {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Global styles */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 14px;
     font-weight: bold;
     line-height: 1.5;
     color: #634d8f;
     background-color: #f4f4f4;
-  }
-  
-  .container {
+    background-color: #000;
+    color: #fff;
+
+}
+
+
+.container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #69491e; /* Dark tan background color */
-  }
-  
-  /* Header styles */
-  header {
+    background-color: #69491e;
+}
+
+/* Header styles */
+header {
     background-color: teal;
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
-  }
-  
-  header h1 {
+}
+
+header h1 {
     font-size: 24px;
     color: #fff;
     margin-bottom: 10px;
-  }
-  
-  nav ul {
+}
+
+nav ul {
     list-style-type: none;
-  }
-  
-  nav ul li {
+    float: right;
+}
+
+nav ul li {
     display: inline-block;
     margin-right: 10px;
-  }
-  
-  nav ul li a {
+}
+
+nav ul li a {
     text-decoration: none;
     color: #fff;
-  }      
-  .image-container {
-    background-image: url("cool-pic.jpeg");
-    background-size:auto;
-    background-position:top;
+}
+
+.cool-pic {
+    height: 50%;
     width: 50%;
-    height: 50vh;
-  }
-  .image-container {
-    display: flex;
-    justify-content: flex-end;
-  }
-  
-  .image-container img {
-    max-width: 100%;
-    height: auto;
-  }
-  
-  /* Work section styles */
-  #work {
+}
+
+section #rachel {
+    width: 20%;
+    height: 20%;
+}
+
+/* Work section styles */
+#work {
     background-color: #fff;
     padding: 20px;
     margin-bottom: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  #work h2 {
+    display: flex;
+    border: 3px solid black;
+}
+
+#work div {
+    justify-content: center;
+    padding-left: 20%;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    border: 3px solid black;
+}
+
+#work h2 {
     font-size: 24px;
     color: purple;
     margin-bottom: 10px;
-  }
-  
-  #work a {
+    border: solid 2px;
+}
+
+#work a {
     display: block;
-    margin-bottom: 100px;
-  }
-  
-  .refactor,
-  .small-pic {
+    border: 3px solid black;
+    float: center;
+    margin-right: 10%;
+}
+
+.refactor,
+.small-pic {
     display: block;
     max-width: 30%;
     height: auto;
     margin-bottom: 10px;
-  }
-  .profile-pic{
+}
+
+.profile-pic {
     display: block;
     max-width: 50%;
     height: auto;
-    margin-bottom: 10px; 
-  }
-  
-  /* Contact section styles */
-  #contact {
+    margin-bottom: 10px;
+}
+
+/* Contact section styles */
+#contact {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
-  }
-  
-  #contact h2 {
+}
+
+#contact h2 {
     font-size: 24px;
-    color: purple;
+    color: rgb(169, 97, 169);
     margin-right: 20px;
     font-weight: bold;
-  }
-  
-  #contact p {
+}
+
+#contact p {
     margin-bottom: 10px;
     font-size: 16px;
-    color: #333;
-  }
-  
-  #contact p:not(:last-child) {
+    color: #a9c2c7;
+}
+
+#contact p:not(:last-child) {
     margin-right: 20px;
-  }
-  
-  #contact a {
+}
+
+#contact a {
     color: purple;
     text-decoration: none;
-  }
-  
-  @media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 768px) {
     #contact h2 {
-      font-size: 20px;
+        font-size: 20px;
     }
-  }
-  
-  
-  
-  /* Responsive styles */
-  @media screen and (max-width: 768px) {
+}
+
+
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
     header {
-      padding: 10px;
+        padding: 10px;
     }
-  
+
     header h1 {
-      font-size: 20px;
+        font-size: 20px;
     }
-  
+
     #about {
-      padding: 10px;
+        padding: 10px;
     }
-  
+
     #about img,
     .small-pic {
-      max-width: 30px;
+        max-width: 30px;
     }
-  }
-   
+}
