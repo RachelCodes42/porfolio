@@ -48,6 +48,22 @@ html, body, h1, h2, p, ul, li, a, img {
     text-decoration: none;
     color: #fff;
   }      
+  .image-container {
+    background-image: url("cool-pic.jpeg");
+    background-size:auto;
+    background-position:top;
+    width: 50%;
+    height: 50vh;
+  }
+  .image-container {
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
   
   /* Work section styles */
   #work {
