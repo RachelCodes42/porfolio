@@ -6,10 +6,11 @@ html, body, h1, h2, p, ul, li, a, img {
   
   /* Global styles */
   body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
     line-height: 1.5;
-    color: #333;
+    color: #634d8f;
     background-color: #f4f4f4;
   }
   
@@ -17,7 +18,7 @@ html, body, h1, h2, p, ul, li, a, img {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #bfae98; /* Dark tan background color */
+    background-color: #69491e; /* Dark tan background color */
   }
   
   /* Header styles */
@@ -46,31 +47,7 @@ html, body, h1, h2, p, ul, li, a, img {
   nav ul li a {
     text-decoration: none;
     color: #fff;
-  }
-  
-  /* About section styles */
-  #about {
-    background-color: #fff;
-    padding: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  }
-  
-  .about-me-header {
-    font-size: 24px;
-    color: purple;
-    margin-bottom: 10px;
-  }
-  
-  .about-me-text {
-    margin-bottom: 20px;
-  }
-  
-  #about img 
-    display:horizontal
-    max-width::selection
-    margin-bottom:focus-visible
-  
+  }      
   
   /* Work section styles */
   #work {
@@ -88,38 +65,59 @@ html, body, h1, h2, p, ul, li, a, img {
   
   #work a {
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 100px;
   }
   
   .refactor,
   .small-pic {
     display: block;
-    max-width: 100%;
+    max-width: 30%;
     height: auto;
     margin-bottom: 10px;
+  }
+  .profile-pic{
+    display: block;
+    max-width: 50%;
+    height: auto;
+    margin-bottom: 10px; 
   }
   
   /* Contact section styles */
   #contact {
-    background-color: #fff;
-    padding: 20px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
   }
   
   #contact h2 {
     font-size: 24px;
     color: purple;
-    margin-block: 10px;
+    margin-right: 20px;
+    font-weight: bold;
   }
   
   #contact p {
     margin-bottom: 10px;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  #contact p:not(:last-child) {
+    margin-right: 20px;
   }
   
   #contact a {
     color: purple;
     text-decoration: none;
   }
+  
+  @media screen and (max-width: 768px) {
+    #contact h2 {
+      font-size: 20px;
+    }
+  }
+  
+  
   
   /* Responsive styles */
   @media screen and (max-width: 768px) {
@@ -137,7 +135,7 @@ html, body, h1, h2, p, ul, li, a, img {
   
     #about img,
     .small-pic {
-      max-width:fit-content;
+      max-width: 30px;
     }
   }
    
