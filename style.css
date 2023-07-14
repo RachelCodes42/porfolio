@@ -15,10 +15,10 @@ img {
 /* Global styles */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bold;
-    line-height: 1.5;
-    color: #634d8f;
+    line-height: 1;
+    color: #7e448a;
     background-color: #000;
     color: #fff;
 
@@ -62,9 +62,9 @@ nav ul li a {
 }
 
 .cool-pic {
-    height: 20%;
+    height: 150%;
     width: 100%;
-    object-fit: contain;
+    object-fit:scale-down;
 }
 
 section #rachel {
@@ -108,15 +108,15 @@ section #rachel {
 }
 #funTimes{
     float: right;
-    border-left: 2px solid yellowgreen;
+    border-left: 2px solid rgb(243, 245, 241);
     width: 80%;
     padding-left: 5px;
 }
 .projects{
-border: 2px solid #634d8f;
+border: 2px solid #edecf0;
 }
 .projects h2{
-    background-color: pink;
+    background-color: rgb(6, 0, 1);
     width: 30%;
     height: 50px;
     margin-top: 450px;
@@ -166,11 +166,12 @@ background-size: contain;
     align-items: center;
     margin-bottom: 20px;
     clear: both;
+    border: 2px solid #fff;
 }
 
 #contact h2 {
     font-size: 24px;
-    color: rgb(169, 97, 169);
+    color: rgb(118, 41, 118);
     margin-right: 20px;
     font-weight: bold;
 }
