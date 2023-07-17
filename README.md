@@ -16,6 +16,7 @@ HTML
 CSS
 JavaScript
 
+Deployment Link:
  https://rachelcodes42.github.io/porfolio/ 
 
 ![alt text](.vscode/assests/mainshot.png)
