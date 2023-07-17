@@ -18,7 +18,7 @@ JavaScript
 
  https://rachelcodes42.github.io/porfolio/ 
 
-.vscode/assests/mainshot.png
+![alt text](.vscode/assests/mainshot.png)
 
 ## Credits
 
